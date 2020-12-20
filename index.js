@@ -6,5 +6,5 @@ function getFirstSelector(selector) {
 
 
 function nestedTarget() {
-return getElementById("nested").querySelector("div.target");
+return document.getElementById("nested").querySelector("div.target");
 }
