@@ -10,7 +10,7 @@ return document.getElementById("nested").querySelector("div.target");
 }
 
 function increaseRankBy(n){
- const myRank = document.querySelectorAll('ul.ranked-list');
+ const myRank = document.querySelectorAll('ranked-list');
  for (let i = 0; i < myRank.length; i++) {
    myRank[i].innerHTML = ((parseInt(myRank[i].innerHTML)) + n);
  }
